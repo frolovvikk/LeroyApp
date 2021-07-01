@@ -1,0 +1,13 @@
+services:
+  leroyapp:
+    image: frolovvikk/leroyapp:1.0
+    container_name: app
+    ports:
+    - 8080:8080
+    links:
+      - mongodb
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+    - 27017:27017
