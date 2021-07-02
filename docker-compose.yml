@@ -1,6 +1,6 @@
 services:
-  leroyapp:
-    image: frolovvikk/leroyapp:1.0
+  app:
+    image: frolovvikk/leroyapp:1.1
     container_name: app
     ports:
     - 8080:8080
@@ -11,3 +11,13 @@ services:
     container_name: mongodb
     ports:
     - 27017:27017
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+    - 80:80
+    - 443:443
+    volumes:
+    - ./nginx/conf.d:/etc/nginx/conf.d
+    links:
+      - app

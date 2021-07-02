@@ -44,3 +44,7 @@ public class Intern {
         this.education = education;
     }
 }
+
+/*
+curl -i -X POST -H "Content-type:application/json" -d "{ \"id\" : \"1\", \"firstName\" : \"Viktor\" , \"lastName\" : \"Frolov\", \"education\" : \"HSE\"}" localhost:8080/addIntern
+ */
