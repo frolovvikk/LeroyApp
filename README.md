@@ -22,3 +22,6 @@ curl localhost/findIntern
 ```
 curl --insecure [ip aws сервера]
 ```
+
+##### Dockerfile for nginx:
+Собирался на aws, туда копировался SSL сертификат, образ хранится локально
