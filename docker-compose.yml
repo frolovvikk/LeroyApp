@@ -12,7 +12,7 @@ services:
     ports:
     - 27017:27017
   nginx:
-    image: nginx:latest
+    image: nginx:latest #собиралось на aws
     container_name: nginx
     ports:
     - 80:80

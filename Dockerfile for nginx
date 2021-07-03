@@ -1,0 +1,3 @@
+FROM nginx:latest
+COPY ./fvikk.crt /etc/nginx/fvikk.crt
+COPY ./fvikk.key /etc/nginx/fvikk.key
