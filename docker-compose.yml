@@ -1,6 +1,6 @@
 services:
   app:
-    image: frolovvikk/leroyapp:1.1
+    image: frolovvikk/leroyapp:2.0
     container_name: app
     ports:
     - 8080:8080
