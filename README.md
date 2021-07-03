@@ -17,3 +17,8 @@ curl localhost/findIntern
 * mvnw.cmd
 * .mvn/wrapper
 * src/test/java/com/example/demo
+
+### Оставлю это тут на всякий случай:
+```
+curl --insecure [ip aws сервера]
+```
