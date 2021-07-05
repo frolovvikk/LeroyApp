@@ -12,7 +12,7 @@ curl -i -X POST -H "Content-type:application/json" -d "{ \"id\" : \"1\", \"first
 ``` bash
 curl localhost/findIntern
 ```
-### Архетип взят со [Spring Initializr](https://start.spring.io), а значит следующие файлы и дериктории писались не мной:
+### Архетип взят со [Spring Initializr](https://start.spring.io), а значит следующие файлы и директории писались не мной:
 * mvnw
 * mvnw.cmd
 * .mvn/wrapper
