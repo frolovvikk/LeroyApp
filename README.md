@@ -6,7 +6,7 @@
 * "/findIntern" - GET запрос, выводит все записи БД
 ### Проверить работоспособность можно подняв docker-compose и ввести в командную строку:
 ``` bash
-curl -i -X POST -H "Content-type:application/json" -d "{ \"id\" : \"1\", \"firstName\" : \"Viktor\" , \"lastName\" : \"Frolov\", \"education\" : \"HSE\"}" localhost:8080/addIntern
+curl -i -X POST -H "Content-type:application/json" -d "{ \"id\" : \"1\", \"firstName\" : \"Viktor\" , \"lastName\" : \"Frolov\", \"education\" : \"HSE\"}" localhost/addIntern
 ```
 ### Далее проверим наличие записи:
 ``` bash
